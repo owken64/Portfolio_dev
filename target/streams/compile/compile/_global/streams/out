@@ -1,19 +1,8 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: C:\Users\owken\Documents\GitHub\Portfolio_dev\src\main\scala\portfolio\Portfolio.scala:71:35 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m71 |[0m            child.text <-- content,[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                   ^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0mImplicit instance of RenderableText[com.raquo.laminar.nodes.ReactiveElement[org.scalajs.dom.Element]] not found. If you want to render `com.raquo.laminar.nodes.ReactiveElement[org.scalajs.dom.Element]` as a string, define an implicit `RenderableText[com.raquo.laminar.nodes.ReactiveElement[org.scalajs.dom.Element]]` instance for it.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\owken\Documents\GitHub\Portfolio_dev\src\main\scala\portfolio\Portfolio.scala:76:58 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m76 |[0m                onClick --> {[36mevent[0m => content.update([36mc[0m => [31m"Clicked!"[0m) },[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                          ^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                               Found:    ([32m"Clicked!"[0m : String)[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                               Required: com.raquo.laminar.api.L.Element[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\owken\Documents\GitHub\Portfolio_dev\src\main\scala\portfolio\Portfolio.scala:80:58 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m80 |[0m                onClick --> {[36mevent[0m => content.update([36mc[0m => [31m"This is Main Content"[0m)},[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                          ^^^^^^^^^^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                             Found:    ([32m"This is Main Content"[0m : String)[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                             Required: com.raquo.laminar.api.L.Element[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
-[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\owken\Documents\GitHub\Portfolio_dev\src\main\scala\portfolio\Portfolio.scala:117:32 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m117 |[0m    Iter2List( ReadBookStr.split([31m"\n"[0m) )[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m               ^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m               Found:    [1m[31mArray[0m[String][0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m               Required: [1m[32mIterator[0m[String][0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
