@@ -59,7 +59,11 @@ def strPretext(): String = "Top"
 
 def strIntroduce(): String = "自己紹介"
 
+def strWorks(): String = "ワークス"
+
 def strInstruments(): String = "機材紹介"
+
+def strYoutube(): String = "YouTube"
 
 def strReadBooks(): String = "読んだ本"
 
@@ -84,9 +88,20 @@ def introduce(): Element =
     )
 end introduce
 
+def works(): Element = 
+    div(
+        "プリンキピア・マテマティカの和訳"
+    )
+end works
+
 def instruments(): Element =
     div(
-        "Epiphone Casino",
+        div("Epiphone Casino"),
+        div("Busker's Les Paul Custom"),
+        div("Roland Cube 20X"),
+        div("Vox AC4TV"),
+        div("Vox AC4C1 Mini"),
+
     )
 end instruments
 
@@ -121,8 +136,9 @@ def Array2List[T](ary: Array[T]): List[T] =
 end Array2List
 
 def readReadBooks(): List[String] =
-//    val filename: String = "books_I_read.csv"
+    val filename: String = "books_I_read.csv"
 //    Iter2List( Source.fromFile(filename).getLines() )
+//    List( js.Dynamic.global.require("fs").readFileSync(filename).toString )
     Array2List( ReadBookStr.split("\n") )
 end readReadBooks
 
@@ -150,6 +166,12 @@ def contact(): Element =
         ),
         div(
             "[at] を @ に変えてください。"
+        ),
+        div(
+            "X(旧Twitter)"
+        ),
+        div(
+            "@OtonakiKewa"
         )
     )
 end contact
@@ -163,28 +185,32 @@ def mainContent(): Element =
 
     def menu(): Element = 
         div(
-            p("Menu"),
+            //p("Menu"),
             div(
-                button(
+                div(button(
                     strPretext(),
                     onClick --> {event => content.update(c => pretext())},
-                ),
-                button(
+                )),
+                div(button(
                     strIntroduce(),
                     onClick --> {event => content.update(c => introduce()) },
-                ),
-                button(
-                    strInstruments(),
-                    onClick --> {event => content.update(c => instruments()) },
-                ),
-                button(
-                    strReadBooks(),
-                    onClick --> {event => content.update(c => readBooks()) },
-                ),
-                button(
+                )),
+                div(button(
+                    strWorks(),
+                    onClick --> {event => content.update(c => works()) },
+                )),
+//                div(button(
+//                    strInstruments(),
+//                    onClick --> {event => content.update(c => instruments()) },
+//                )),
+//                div(button(
+//                    strReadBooks(),
+//                    onClick --> {event => content.update(c => readBooks()) },
+//                )),
+                div(button(
                     strContact(),
                     onClick --> {event => content.update(c => contact()) },
-                ),
+                )),
             ),
         )
     end menu
@@ -192,7 +218,11 @@ def mainContent(): Element =
     div(
         div(
             child <-- content,
+            className := "left-content",
         ),
-        menu(),
+        div(
+            menu(),
+            className := "right-content",
+        ),
     )
 end mainContent

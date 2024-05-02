@@ -1,17 +1,47 @@
 [0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\owken\Documents\GitHub\Portfolio_dev\target\scala-3.2.2\classes.bak[0m
 [0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	BookList$package$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	BookList$package.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	BookList$package$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	BookList$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyBook$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyBook.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Portfolio$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Portfolio.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Portfolio$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyBook$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyBook.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Portfolio$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Portfolio.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Portfolio$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	BookList$package$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	BookList$package.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	BookList$package$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	BookList$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyBook$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyBook.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Portfolio$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Portfolio.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Portfolio$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyBook$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyBook.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Portfolio$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Portfolio.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Portfolio$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	BookList$package.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	BookList$package$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	BookList$package.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	BookList$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyBook$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyBook.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Portfolio$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Portfolio.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Portfolio$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyBook$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyBook.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Portfolio$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Portfolio.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Portfolio$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\owken\Documents\GitHub\Portfolio_dev\target\scala-3.2.2\classes.bak[0m

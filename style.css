@@ -95,3 +95,14 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+.left-content{
+  width: 50%;
+  float:left;
+}
+
+.right-content{
+  width: 50%;
+  float:right;
+}
