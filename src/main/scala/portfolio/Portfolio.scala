@@ -90,7 +90,32 @@ end introduce
 
 def works(): Element = 
     div(
-        "プリンキピア・マテマティカの和訳"
+        div(
+            "プリンキピア・マテマティカの和訳"
+        ),
+        div(
+            "底本はこちら",
+            a(
+                href:= "https://www.amazon.co.jp/Principia-Mathematica-Alfred-North-Whitehead/dp/1603861823/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3LC8RRSG01KVL&dib=eyJ2IjoiMSJ9.IVlG5tiAffVxLrowelqf0sy9luAPou5bm-RLFb66FlZNtPmDX4I4Dk3H7nhz3zmkw6scU484pkZHm1xLs7dUNJFygKeSnCutTKuIlRzYTafsNBvZlnHOmGf4aM_4NkRlTpIVsBMIokX-jY6bDVtELB3Vi0thmADauGn3y6B4Z1Ccap-JYcO68hKqSipFln4CYpX3lSwdWGtr_G_WXRPhS101uMgo1v9LMD1BYnE0RKs.VRrlEF4Q3ObneAuhW-VVm8v-gcRWlFcJmwvfvwH4zOo&dib_tag=se&keywords=principia+mathematica&qid=1715000925&s=english-books&sprefix=principia+mathematica%2Cenglish-books%2C205&sr=1-2",
+                "Volume one",
+            ), ",",
+            a(
+                href:= "https://www.amazon.co.jp/Principia-Mathematica-Alfred-North-Whitehead/dp/1603861831/ref=pd_sim_d_sccl_2_1/357-1615376-2546052?pd_rd_w=JWLae&content-id=amzn1.sym.3b32c2f6-e6f7-43e2-ac40-fd65e56b52d8&pf_rd_p=3b32c2f6-e6f7-43e2-ac40-fd65e56b52d8&pf_rd_r=9W6Y81H481Z8XWZAWNCZ&pd_rd_wg=J8O5E&pd_rd_r=ee04ba23-7bad-47fe-8b52-be5153d1ed8d&pd_rd_i=1603861831&psc=1",
+                "Volume two",
+            ), "," ,
+            a(
+                href:= "https://www.amazon.co.jp/Principia-Mathematica-Three-Alfred-Whitehead/dp/160386184X/ref=pd_sim_d_sccl_2_2/357-1615376-2546052?pd_rd_w=JWLae&content-id=amzn1.sym.3b32c2f6-e6f7-43e2-ac40-fd65e56b52d8&pf_rd_p=3b32c2f6-e6f7-43e2-ac40-fd65e56b52d8&pf_rd_r=9W6Y81H481Z8XWZAWNCZ&pd_rd_wg=J8O5E&pd_rd_r=ee04ba23-7bad-47fe-8b52-be5153d1ed8d&pd_rd_i=160386184X&psc=1",
+                "Volume three",
+            ),
+        ),
+        div(
+            p("本の概要"),
+            p("""プリンキピア・マテマティカは1910年-1913年に初版が出版された。
+            プリンキピアは長い間世紀のitellectual landmarkの一つとして認識されていた。
+            それは数学と形式論理学の間の近い関係をはっきりと示した初めての本でした。
+            最小の数の公理からはじめて、ホワイトヘッドとラッセルは両方の数々の考えの構造を示しています。
+            数学の哲学のsubsequentな歴史においてこれほどの影響を持っている本はほかにありません。""")
+        )
     )
 end works
 
