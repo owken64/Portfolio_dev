@@ -1,0 +1,8 @@
+{
+"version": 3,
+"file": "portfolio.-Book-List-Fetch$package$.js",
+"mappings": ";;;AAqDA;SAAA,oCAAA;C;AAAA,SAAA,oCAAA,2C;AAAA,EAAA,GAAA,oCAAA,CAAA,SAAA,OAAAA,wDAAA,CAAA,IAAA,G;AAAA,EAAA,CAAA,WAAA,GAAA,oCAAA,C;AAAA;SAAA,oCAAA;C;AAAA,SAAA,oCAAA,2C;AAAA,oCAAA,CAAA,SAAA,GAAA,EAAA,C;AAAyD,EAAA,CAArDC,EAAqD,aAAvC,GAAuC;qFAAA,EAAA,CCgWkB,GDhWlB,EAAC,EAAD;G;AAAzD,IAAA,oCAAA,OAAAD,wDAAA,CAAA,SAAA,GAAA,CAAA,CAAA,oCAAA;EAAA,EAAA;I;AAAA,SAAA,oCAAA,2C;AAAA,IAAA,oCAAA,C;AAAA,SAAA,oCAAA;QAAA,oCAAA;IAAA,oCAAA,OAAA,oCAAA;;SAAA,oCAAA;C;AAAA,SAAA,oCAAA,2C;",
+"sources": ["file:///C:/Users/owken/Documents/GitHub/Portfolio_dev/src/main/scala/portfolio/BookListFetch.scala", "https://raw.githubusercontent.com/scala/scala/v2.13.13/src/library/scala/Predef.scala"],
+"names": ["internal-3ebfae0cba70adf981029a0da5b1e4b5ab5d02c6", "str2MultiLine"],
+"lineCount": 29
+}

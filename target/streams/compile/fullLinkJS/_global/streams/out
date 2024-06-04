@@ -1,0 +1,29 @@
+[info] Full optimizing C:\Users\owken\Documents\GitHub\Portfolio_dev\target\scala-3.2.2\portfolio-opt
+[debug] Linker: Compute reachability: 694636 us
+[debug] Linker: Assemble LinkedClasses: 24959 us
+[debug] Linker: Check IR: 234154 us
+[debug] Linker: 984354 us
+[debug] Optimizer: Batch mode: true
+[debug] Optimizer: Incremental part: 82096 us
+[debug] Optimizer: Elidable constructors: 2789 us
+[debug] Optimizer: Optimizing 5689 methods.
+[debug] Optimizer: Optimizer part: 327149 us
+[debug] Optimizer: 420634 us
+[debug] Refiner: Compute reachability: 36101 us
+[debug] Refiner: Assemble LinkedClasses: 7313 us
+[debug] Refiner: 44835 us
+[debug] Module Splitter: Calculate Dependency Info: 1512 us
+[debug] Module Splitter: Analyze Modules: 41583 us
+[debug] Module Splitter: Assemble Modules: 5120 us
+[debug] Module Splitter: 49514 us
+[debug] Emitter: Generate Classes: 404045 us
+[debug] Emitter: Write trees: 28932 us
+[debug] Emitter: Class tree cache stats: reused: 0 -- invalidated: 465
+[debug] Emitter: Method tree cache stats: reused: 0 -- invalidated: 2220
+[debug] Emitter: Post transforms: total: 3297 -- nested: 26 -- nested avoided: 345
+[debug] Name compressor: Collect property names to avoid: 1162 us
+[debug] Name compressor: Allocate property names: 7248 us
+[debug] Name compressor: Allocate ancestor names: 675 us
+[debug] Emitter: 465449 us
+[debug] BasicBackend: Write result: 85948 us
+[debug] BasicBackend: total modules: 7; re-written: 7
