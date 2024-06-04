@@ -1,15 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\owken\Documents\GitHub\Portfolio_dev\src\main\scala\portfolio\Portfolio.scala:99:71 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m99 |[0m    [33mval[0m [36mbookVar[0m: [35mVar[0m[[35mList[0m[[35mMyBook[0m]] = Var(readReadBooks().map( csv2book(_) ))[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                       ^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                          Found:    (_$1 : List[String])[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                          Required: String[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\owken\Documents\GitHub\Portfolio_dev\src\main\scala\portfolio\Portfolio.scala:132:14 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m132 |[0m    Array2List( ReadBookStr.split([31m"\n"[0m) )[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Found:    List[String][0m
-[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Required: [1m[32mconcurrent[0m[1m[32m.[0m[1m[32mFuture[0m[1m[32m[[0mList[String[1m[32m][0m][0m
-[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: C:\Users\owken\Documents\GitHub\Portfolio_dev\src\main\scala\portfolio\BookListFetch.scala:43:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m43 |[0m        }[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m         ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mImplicit instance of RenderableNode[String] not found. If `String` is a custom component that you want to render as a node / element, define an implicit RenderableNode[String] instance for it. For rendering as a string or primitive value, define RenderableText[String] instead, and perhaps use `child.text <--` instead of `child <-- ...`.[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

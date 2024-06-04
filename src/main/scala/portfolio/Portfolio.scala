@@ -61,6 +61,8 @@ def strIntroduce(): String = "自己紹介"
 
 def strWorks(): String = "ワークス"
 
+def strReadBooks(): String = "読んだ本"
+
 def strContact(): String = "コンタクト"
 
 def pretext(): Element =
@@ -90,6 +92,8 @@ def works(): Element =
         div("本(予定)")
     )
 end works
+
+def readBooks(): Element = BookListFetch()
 
 def contact(): Element =
     div(
@@ -129,6 +133,10 @@ def mainContent(): Element =
                 div(button(
                     strWorks(),
                     onClick --> {event => content.update(c => works()) },
+                )),
+                div(button(
+                    strReadBooks(),
+                    onClick --> {event => content.update(c => readBooks()) },
                 )),
                 div(button(
                     strContact(),
