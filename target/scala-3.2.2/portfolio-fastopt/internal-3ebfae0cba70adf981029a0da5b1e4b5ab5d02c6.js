@@ -2534,6 +2534,7 @@ function $m_Lcom_raquo_laminar_codecs_package$() {
 export { $m_Lcom_raquo_laminar_codecs_package$ as $m_Lcom_raquo_laminar_codecs_package$ };
 function $f_Lcom_raquo_laminar_defs_complex_ComplexHtmlKeys__$init$__V($thiz) {
   $thiz.Lcom_raquo_laminar_api_package$$anon$1__f_className = $f_Lcom_raquo_laminar_defs_complex_ComplexHtmlKeys__stringCompositeHtmlAttr__T__T__Lcom_raquo_laminar_keys_CompositeKey($thiz, "class", " ");
+  $thiz.Lcom_raquo_laminar_api_package$$anon$1__f_cls = $thiz.Lcom_raquo_laminar_api_package$$anon$1__f_className;
 }
 export { $f_Lcom_raquo_laminar_defs_complex_ComplexHtmlKeys__$init$__V as $f_Lcom_raquo_laminar_defs_complex_ComplexHtmlKeys__$init$__V };
 function $f_Lcom_raquo_laminar_defs_complex_ComplexHtmlKeys__stringCompositeHtmlAttr__T__T__Lcom_raquo_laminar_keys_CompositeKey($thiz, name, separator) {
@@ -8521,6 +8522,25 @@ function $h_Lcom_raquo_laminar_keys_HtmlAttr() {
 }
 export { $h_Lcom_raquo_laminar_keys_HtmlAttr as $h_Lcom_raquo_laminar_keys_HtmlAttr };
 $h_Lcom_raquo_laminar_keys_HtmlAttr.prototype = $c_Lcom_raquo_laminar_keys_HtmlAttr.prototype;
+$c_Lcom_raquo_laminar_keys_HtmlAttr.prototype.$colon$eq__O__Lcom_raquo_laminar_modifiers_KeySetter = (function(value) {
+  return new $c_Lcom_raquo_laminar_modifiers_KeySetter(this, value, new $c_sjsr_AnonFunction3(((element, attr, value$2) => {
+    var element$1 = $as_Lcom_raquo_laminar_nodes_ReactiveHtmlElement(element);
+    var attr$1 = $as_Lcom_raquo_laminar_keys_HtmlAttr(attr);
+    $m_Lcom_raquo_laminar_DomApi$().setHtmlAttribute__Lcom_raquo_laminar_nodes_ReactiveHtmlElement__Lcom_raquo_laminar_keys_HtmlAttr__O__V(element$1, attr$1, value$2);
+  })));
+});
+function $as_Lcom_raquo_laminar_keys_HtmlAttr(obj) {
+  return (((obj instanceof $c_Lcom_raquo_laminar_keys_HtmlAttr) || (obj === null)) ? obj : $throwClassCastException(obj, "com.raquo.laminar.keys.HtmlAttr"));
+}
+export { $as_Lcom_raquo_laminar_keys_HtmlAttr as $as_Lcom_raquo_laminar_keys_HtmlAttr };
+function $isArrayOf_Lcom_raquo_laminar_keys_HtmlAttr(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_raquo_laminar_keys_HtmlAttr)));
+}
+export { $isArrayOf_Lcom_raquo_laminar_keys_HtmlAttr as $isArrayOf_Lcom_raquo_laminar_keys_HtmlAttr };
+function $asArrayOf_Lcom_raquo_laminar_keys_HtmlAttr(obj, depth) {
+  return (($isArrayOf_Lcom_raquo_laminar_keys_HtmlAttr(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.raquo.laminar.keys.HtmlAttr;", depth));
+}
+export { $asArrayOf_Lcom_raquo_laminar_keys_HtmlAttr as $asArrayOf_Lcom_raquo_laminar_keys_HtmlAttr };
 var $d_Lcom_raquo_laminar_keys_HtmlAttr = new $TypeData().initClass($c_Lcom_raquo_laminar_keys_HtmlAttr, "com.raquo.laminar.keys.HtmlAttr", ({
   Lcom_raquo_laminar_keys_HtmlAttr: 1,
   Lcom_raquo_laminar_keys_Key: 1
@@ -9612,6 +9632,20 @@ $c_sr_AbstractFunction2.prototype.toString__T = (function() {
   return "<function2>";
 });
 /** @constructor */
+function $c_sr_AbstractFunction3() {
+}
+export { $c_sr_AbstractFunction3 as $c_sr_AbstractFunction3 };
+$c_sr_AbstractFunction3.prototype = new $h_O();
+$c_sr_AbstractFunction3.prototype.constructor = $c_sr_AbstractFunction3;
+/** @constructor */
+function $h_sr_AbstractFunction3() {
+}
+export { $h_sr_AbstractFunction3 as $h_sr_AbstractFunction3 };
+$h_sr_AbstractFunction3.prototype = $c_sr_AbstractFunction3.prototype;
+$c_sr_AbstractFunction3.prototype.toString__T = (function() {
+  return "<function3>";
+});
+/** @constructor */
 function $c_sr_AbstractFunction4() {
 }
 export { $c_sr_AbstractFunction4 as $c_sr_AbstractFunction4 };
@@ -10110,6 +10144,32 @@ var $d_Lcom_raquo_laminar_modifiers_EventListener = new $TypeData().initClass($c
   Lcom_raquo_laminar_modifiers_Binder: 1
 }));
 export { $d_Lcom_raquo_laminar_modifiers_EventListener as $d_Lcom_raquo_laminar_modifiers_EventListener };
+/** @constructor */
+function $c_Lcom_raquo_laminar_modifiers_KeySetter(key, value, action) {
+  this.Lcom_raquo_laminar_modifiers_KeySetter__f_key = null;
+  this.Lcom_raquo_laminar_modifiers_KeySetter__f_value = null;
+  this.Lcom_raquo_laminar_modifiers_KeySetter__f_action = null;
+  this.Lcom_raquo_laminar_modifiers_KeySetter__f_key = key;
+  this.Lcom_raquo_laminar_modifiers_KeySetter__f_value = value;
+  this.Lcom_raquo_laminar_modifiers_KeySetter__f_action = action;
+}
+export { $c_Lcom_raquo_laminar_modifiers_KeySetter as $c_Lcom_raquo_laminar_modifiers_KeySetter };
+$c_Lcom_raquo_laminar_modifiers_KeySetter.prototype = new $h_O();
+$c_Lcom_raquo_laminar_modifiers_KeySetter.prototype.constructor = $c_Lcom_raquo_laminar_modifiers_KeySetter;
+/** @constructor */
+function $h_Lcom_raquo_laminar_modifiers_KeySetter() {
+}
+export { $h_Lcom_raquo_laminar_modifiers_KeySetter as $h_Lcom_raquo_laminar_modifiers_KeySetter };
+$h_Lcom_raquo_laminar_modifiers_KeySetter.prototype = $c_Lcom_raquo_laminar_modifiers_KeySetter.prototype;
+$c_Lcom_raquo_laminar_modifiers_KeySetter.prototype.apply__Lcom_raquo_laminar_nodes_ReactiveElement__V = (function(element) {
+  $n(this.Lcom_raquo_laminar_modifiers_KeySetter__f_action).apply__O__O__O__O(element, this.Lcom_raquo_laminar_modifiers_KeySetter__f_key, this.Lcom_raquo_laminar_modifiers_KeySetter__f_value);
+});
+var $d_Lcom_raquo_laminar_modifiers_KeySetter = new $TypeData().initClass($c_Lcom_raquo_laminar_modifiers_KeySetter, "com.raquo.laminar.modifiers.KeySetter", ({
+  Lcom_raquo_laminar_modifiers_KeySetter: 1,
+  Lcom_raquo_laminar_modifiers_Modifier: 1,
+  Lcom_raquo_laminar_modifiers_Setter: 1
+}));
+export { $d_Lcom_raquo_laminar_modifiers_KeySetter as $d_Lcom_raquo_laminar_modifiers_KeySetter };
 function $is_Lcom_raquo_laminar_nodes_ChildNode(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_raquo_laminar_nodes_ChildNode)));
 }
@@ -11413,6 +11473,28 @@ var $d_sjsr_AnonFunction2 = new $TypeData().initClass($c_sjsr_AnonFunction2, "sc
   F2: 1
 }));
 export { $d_sjsr_AnonFunction2 as $d_sjsr_AnonFunction2 };
+/** @constructor */
+function $c_sjsr_AnonFunction3(f) {
+  this.sjsr_AnonFunction3__f_f = null;
+  this.sjsr_AnonFunction3__f_f = f;
+}
+export { $c_sjsr_AnonFunction3 as $c_sjsr_AnonFunction3 };
+$c_sjsr_AnonFunction3.prototype = new $h_sr_AbstractFunction3();
+$c_sjsr_AnonFunction3.prototype.constructor = $c_sjsr_AnonFunction3;
+/** @constructor */
+function $h_sjsr_AnonFunction3() {
+}
+export { $h_sjsr_AnonFunction3 as $h_sjsr_AnonFunction3 };
+$h_sjsr_AnonFunction3.prototype = $c_sjsr_AnonFunction3.prototype;
+$c_sjsr_AnonFunction3.prototype.apply__O__O__O__O = (function(arg1, arg2, arg3) {
+  return (0, this.sjsr_AnonFunction3__f_f)(arg1, arg2, arg3);
+});
+var $d_sjsr_AnonFunction3 = new $TypeData().initClass($c_sjsr_AnonFunction3, "scala.scalajs.runtime.AnonFunction3", ({
+  sjsr_AnonFunction3: 1,
+  sr_AbstractFunction3: 1,
+  F3: 1
+}));
+export { $d_sjsr_AnonFunction3 as $d_sjsr_AnonFunction3 };
 /** @constructor */
 function $c_sjsr_AnonFunction4(f) {
   this.sjsr_AnonFunction4__f_f = null;
@@ -21700,15 +21782,20 @@ function $c_Lcom_raquo_laminar_api_package$$anon$1() {
   this.Lcom_raquo_laminar_api_package$$anon$1__f_h1bitmap$1 = false;
   this.Lcom_raquo_laminar_api_package$$anon$1__f_h2$lzy1 = null;
   this.Lcom_raquo_laminar_api_package$$anon$1__f_h2bitmap$1 = false;
+  this.Lcom_raquo_laminar_api_package$$anon$1__f_a$lzy1 = null;
+  this.Lcom_raquo_laminar_api_package$$anon$1__f_abitmap$1 = false;
   this.Lcom_raquo_laminar_api_package$$anon$1__f_button$lzy1 = null;
   this.Lcom_raquo_laminar_api_package$$anon$1__f_buttonbitmap$1 = false;
   this.Lcom_raquo_laminar_api_package$$anon$1__f_p$lzy1 = null;
   this.Lcom_raquo_laminar_api_package$$anon$1__f_pbitmap$1 = false;
   this.Lcom_raquo_laminar_api_package$$anon$1__f_div$lzy1 = null;
   this.Lcom_raquo_laminar_api_package$$anon$1__f_divbitmap$1 = false;
+  this.Lcom_raquo_laminar_api_package$$anon$1__f_href$lzy1 = null;
+  this.Lcom_raquo_laminar_api_package$$anon$1__f_hrefbitmap$1 = false;
   this.Lcom_raquo_laminar_api_package$$anon$1__f_onClick$lzy1 = null;
   this.Lcom_raquo_laminar_api_package$$anon$1__f_onClickbitmap$1 = false;
   this.Lcom_raquo_laminar_api_package$$anon$1__f_className = null;
+  this.Lcom_raquo_laminar_api_package$$anon$1__f_cls = null;
   this.Lcom_raquo_laminar_api_package$$anon$1__f_StringValueMapper$lzy1 = null;
   this.Lcom_raquo_laminar_api_package$$anon$1__f_StringValueMapperbitmap$1 = false;
   this.Lcom_raquo_laminar_api_package$$anon$1__f_svg$lzy1 = null;
@@ -21752,6 +21839,13 @@ $c_Lcom_raquo_laminar_api_package$$anon$1.prototype.h2__Lcom_raquo_laminar_tags_
   }
   return this.Lcom_raquo_laminar_api_package$$anon$1__f_h2$lzy1;
 });
+$c_Lcom_raquo_laminar_api_package$$anon$1.prototype.a__Lcom_raquo_laminar_tags_HtmlTag = (function() {
+  if ((!this.Lcom_raquo_laminar_api_package$$anon$1__f_abitmap$1)) {
+    this.Lcom_raquo_laminar_api_package$$anon$1__f_a$lzy1 = new $c_Lcom_raquo_laminar_tags_HtmlTag("a", false);
+    this.Lcom_raquo_laminar_api_package$$anon$1__f_abitmap$1 = true;
+  }
+  return this.Lcom_raquo_laminar_api_package$$anon$1__f_a$lzy1;
+});
 $c_Lcom_raquo_laminar_api_package$$anon$1.prototype.button__Lcom_raquo_laminar_tags_HtmlTag = (function() {
   if ((!this.Lcom_raquo_laminar_api_package$$anon$1__f_buttonbitmap$1)) {
     this.Lcom_raquo_laminar_api_package$$anon$1__f_button$lzy1 = new $c_Lcom_raquo_laminar_tags_HtmlTag("button", false);
@@ -21772,6 +21866,14 @@ $c_Lcom_raquo_laminar_api_package$$anon$1.prototype.div__Lcom_raquo_laminar_tags
     this.Lcom_raquo_laminar_api_package$$anon$1__f_divbitmap$1 = true;
   }
   return this.Lcom_raquo_laminar_api_package$$anon$1__f_div$lzy1;
+});
+$c_Lcom_raquo_laminar_api_package$$anon$1.prototype.href__Lcom_raquo_laminar_keys_HtmlAttr = (function() {
+  if ((!this.Lcom_raquo_laminar_api_package$$anon$1__f_hrefbitmap$1)) {
+    var codec = $m_Lcom_raquo_laminar_codecs_package$().Lcom_raquo_laminar_codecs_package$__f_StringAsIsCodec;
+    this.Lcom_raquo_laminar_api_package$$anon$1__f_href$lzy1 = new $c_Lcom_raquo_laminar_keys_HtmlAttr("href", codec);
+    this.Lcom_raquo_laminar_api_package$$anon$1__f_hrefbitmap$1 = true;
+  }
+  return this.Lcom_raquo_laminar_api_package$$anon$1__f_href$lzy1;
 });
 $c_Lcom_raquo_laminar_api_package$$anon$1.prototype.onClick__Lcom_raquo_laminar_keys_EventProp = (function() {
   if ((!this.Lcom_raquo_laminar_api_package$$anon$1__f_onClickbitmap$1)) {

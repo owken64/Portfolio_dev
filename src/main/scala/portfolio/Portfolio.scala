@@ -78,18 +78,30 @@ end pretext
 
 def introduce(): Element = 
     div(
+        h1("自己紹介"),
         p(
-            "音無(オトナキ)。1992年生まれ。岐阜県出身。",
+            "音無(オトナキ)。1992年生まれ。岐阜県出身。"
+        ),
+        p(
+            "名前はペンネーム(?)です。しがない人間ですがお手柔らかに…。"
         )
     )
 end introduce
 
 def works(): Element = 
     div(
-        div("自作アンプ(予定)"),
-        div("自作エフェクター(予定)"),
-        div("自作シンセサイザー(予定)"),
-        div("本(予定)")
+        h1("ワークス"),
+        h2("プログラム・ソフトウェア"),
+        div( "Scalaのライブラリ(予定)"),
+        div(
+            "自作シンセサイザー Benten(予定)",
+            a( href := "https://github.com/owken64/Benten",
+              "GitHub"
+            )
+        ),
+        h2("文書"),
+        div("計算の理論(予定)"),
+        div("プログラミングの文脈で数学的対象を扱うための試論(予定)")
     )
 end works
 
@@ -97,6 +109,7 @@ def readBooks(): Element = BookListFetch()
 
 def contact(): Element =
     div(
+        h1("コンタクト"),
         div(
             "owken64 [at] gmail.com"
         ),
@@ -146,7 +159,9 @@ def mainContent(): Element =
         )
     end menu
 
+
     div(
+        className := "wrapper",
         div(
             child <-- content,
             className := "left-content",
@@ -154,6 +169,6 @@ def mainContent(): Element =
         div(
             menu(),
             className := "right-content",
-        ),
+        )
     )
 end mainContent

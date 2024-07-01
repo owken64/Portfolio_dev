@@ -1,5 +1,9 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: C:\Users\owken\Documents\GitHub\Portfolio_dev\src\main\scala\portfolio\BookListFetch.scala:43:9 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m43 |[0m        }[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m         ^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0mImplicit instance of RenderableNode[String] not found. If `String` is a custom component that you want to render as a node / element, define an implicit RenderableNode[String] instance for it. For rendering as a string or primitive value, define RenderableText[String] instead, and perhaps use `child.text <--` instead of `child <-- ...`.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: C:\Users\owken\Documents\GitHub\Portfolio_dev\src\main\scala\portfolio\Portfolio.scala:173:13 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m173 |[0m        style=[31m"width:auto;height:auto;"[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[33mmethod[0m [35mapply[0m in [33mclass[0m [35mHtmlTag[0m: (modifiers: [0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  com.raquo.laminar.modifiers.Modifier[[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    com.raquo.laminar.nodes.ReactiveHtmlElement[org.scalajs.dom.HTMLDivElement][0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  ][0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m*): com.raquo.laminar.nodes.ReactiveHtmlElement[org.scalajs.dom.HTMLDivElement] does not have a parameter style[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

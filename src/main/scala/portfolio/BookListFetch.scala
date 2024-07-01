@@ -31,14 +31,16 @@ object BookListFetch {
 //    }
     // HTML要素を作成し、eventsVarの値をバインド
     val appElement = div(
-      h1("Responses"),
+      h1("読んだ本"),
       div(
         inContext { thisNode =>
             response --> eventsVar.updater[String](_ :+ _)
         },
         children <-- eventsVar.signal.map { responses => 
             responses.flatMap( response => 
-                str2MultiLine( response ).toList.map( line => div(line))
+                str2MultiLine( response ).toList.map( line => 
+                  csv2ReadBookItem(parseCsv(line)).toHTMLElement
+                  )
             )
         }
       )
@@ -48,7 +50,17 @@ object BookListFetch {
 }
 
 case class ReadBookItem(date:String, title:String, author:String, publisher:String) {
-    def toHTMLElement = p( date, title, author, publisher )
+    def toHTMLElement = div(
+      cls:= "read-book-item", 
+      div(date,
+        cls:="read-book-item-date"),
+      div(title,
+        cls:="read-book-item-title"),
+      div(author,
+        cls:="read-book-item-author"),
+      div(publisher,
+        cls:="read-book-item-publisher")
+    )
 }
 
 def str2MultiLine(src: String): Array[String] = src.split('\n')

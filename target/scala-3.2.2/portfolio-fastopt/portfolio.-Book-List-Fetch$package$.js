@@ -14,6 +14,9 @@ $h_Lportfolio_BookListFetch$package$.prototype = $c_Lportfolio_BookListFetch$pac
 $c_Lportfolio_BookListFetch$package$.prototype.str2MultiLine__T__AT = (function(src) {
   return $j_internal$002d3ebfae0cba70adf981029a0da5b1e4b5ab5d02c6.$m_sc_StringOps$().split$extension__T__C__AT(src, 10);
 });
+$c_Lportfolio_BookListFetch$package$.prototype.parseCsv__T__AT = (function(src) {
+  return $j_internal$002d3ebfae0cba70adf981029a0da5b1e4b5ab5d02c6.$m_sc_StringOps$().split$extension__T__C__AT(src, 44);
+});
 var $d_Lportfolio_BookListFetch$package$ = new $j_internal$002d3ebfae0cba70adf981029a0da5b1e4b5ab5d02c6.$TypeData().initClass($c_Lportfolio_BookListFetch$package$, "portfolio.BookListFetch$package$", ({
   Lportfolio_BookListFetch$package$: 1
 }));

@@ -12,11 +12,14 @@ function $h_Lportfolio_BookListFetch$package$() {
 }
 export { $h_Lportfolio_BookListFetch$package$ as $h_Lportfolio_BookListFetch$package$ };
 $h_Lportfolio_BookListFetch$package$.prototype = $p;
-$p.ri = (function(src) {
-  return $j_internal$002d3ebfae0cba70adf981029a0da5b1e4b5ab5d02c6.$m_sc_StringOps$().rg(src, 10);
+$p.rA = (function(src) {
+  return $j_internal$002d3ebfae0cba70adf981029a0da5b1e4b5ab5d02c6.$m_sc_StringOps$().ot(src, 10);
+});
+$p.rf = (function(src) {
+  return $j_internal$002d3ebfae0cba70adf981029a0da5b1e4b5ab5d02c6.$m_sc_StringOps$().ot(src, 44);
 });
 var $d_Lportfolio_BookListFetch$package$ = new $j_internal$002d3ebfae0cba70adf981029a0da5b1e4b5ab5d02c6.$TypeData().i($c_Lportfolio_BookListFetch$package$, "portfolio.BookListFetch$package$", ({
-  f7: 1
+  f9: 1
 }));
 export { $d_Lportfolio_BookListFetch$package$ as $d_Lportfolio_BookListFetch$package$ };
 var $n_Lportfolio_BookListFetch$package$;
